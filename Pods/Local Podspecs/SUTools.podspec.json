@@ -1,0 +1,22 @@
+{
+  "name": "SUTools",
+  "version": "0.1.0",
+  "summary": "A short description of SUTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YqGitHub000/SUTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YqGitHub000": "yaoq@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YqGitHub000/SUTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SUTools/Classes/**/*"
+}

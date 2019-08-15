@@ -1,0 +1,6 @@
+framework module SUTools {
+  umbrella header "SUTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

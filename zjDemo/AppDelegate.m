@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     NSLog(@"git test");
     NSLog(@"git test1");
+    NSLog(@"修复bug10086");
     return YES;
 }
 

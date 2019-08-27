@@ -20,6 +20,8 @@
     NSLog(@"git test");
     NSLog(@"git test1");
     NSLog(@"修复bug10086");
+    NSLog(@"dev分支测试");
+
     return YES;
 }
 

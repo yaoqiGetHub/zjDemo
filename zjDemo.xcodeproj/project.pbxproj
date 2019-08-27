@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286D3047231511FB00737CAC /* Testmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D3046231511FB00737CAC /* Testmanager.m */; };
 		28B74DB223041EF400294F7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B74DB123041EF400294F7D /* AppDelegate.m */; };
 		28B74DB823041EF400294F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B74DB623041EF400294F7D /* Main.storyboard */; };
 		28B74DBA23041EF400294F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B74DB923041EF400294F7D /* Assets.xcassets */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286D3045231511FB00737CAC /* Testmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testmanager.h; sourceTree = "<group>"; };
+		286D3046231511FB00737CAC /* Testmanager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Testmanager.m; sourceTree = "<group>"; };
 		28B74DAD23041EF400294F7D /* zjDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zjDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B74DB023041EF400294F7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28B74DB123041EF400294F7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286D3044231511E700737CAC /* addManger */ = {
+			isa = PBXGroup;
+			children = (
+				286D3045231511FB00737CAC /* Testmanager.h */,
+				286D3046231511FB00737CAC /* Testmanager.m */,
+			);
+			path = addManger;
+			sourceTree = "<group>";
+		};
 		28B74DA423041EF300294F7D = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 			children = (
 				28B74DB023041EF400294F7D /* AppDelegate.h */,
 				28B74DB123041EF400294F7D /* AppDelegate.m */,
+				286D3044231511E700737CAC /* addManger */,
 				28B74DB623041EF400294F7D /* Main.storyboard */,
 				28B74DB923041EF400294F7D /* Assets.xcassets */,
 				28B74DBB23041EF400294F7D /* LaunchScreen.storyboard */,
@@ -325,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286D3047231511FB00737CAC /* Testmanager.m in Sources */,
 				28B74DC023041EF400294F7D /* main.m in Sources */,
 				28B74DB223041EF400294F7D /* AppDelegate.m in Sources */,
 			);

@@ -13,7 +13,7 @@
 - (instancetype)init{
     self=[super init];
     if (self) {
-        
+        NSLog(@"张三");
     }
     return self;
 }
